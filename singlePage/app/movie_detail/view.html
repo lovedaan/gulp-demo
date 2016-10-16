@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  <h1>{{data.title}}</h1>
+  <img ng-src="{{data.images.large}}" alt="{{data.title}}" />
+  <p>{{data.summary}}</p>
+</div>
+
+<div class="spinner"  ng-show="loading">
+  <div class="dot1"></div>
+  <div class="dot2"></div>
+</div>
+<div class="loadingDark" ng-show="loading"></div>
